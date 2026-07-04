@@ -31,6 +31,6 @@
     "default_icon": "icon.png"
   },
   "icons": {
-    "128": "icon.svg"
+    "128": "icon.png"
   }
 }
