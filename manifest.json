@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Age Verification Bypass Pro",
+  "version": "2.0.0",
+  "description": "Dynamically detects and bypasses age verification overlays on various platforms using pattern matching.",
+  "author": "🦊 helloyanis",
+  "developer": {
+    "name": "🦊 helloyanis",
+    "url": "https://🦊💻️.ws"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "helloyanis@ageverif-bypass-pro",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  },
+  "icons": {
+    "128": "icon.svg"
+  }
+}
